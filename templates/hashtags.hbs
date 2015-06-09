@@ -5,12 +5,12 @@
     <label for="hashtag">Hashtag:</label>
     {{input id="hashtag" class="form-control" value=hashtag}}
   </div>
-
+<br>
     <button class="btn btn-primary" {{action 'findHashTags'}}>Search</button>
 </form>
-
+<hr>
 <ul>
   {{#each returnTweets as |tweet|}}
-    <li>{{#link-to 'tweet' tweet.id}}{{tweet.text}}{{/link-to}}</li>
+    <li>{{#link-to 'tweet' tweet.id}}{{tweet.text}} --- {{tweet.time}}{{/link-to}}</li>
   {{/each}}
 </ul>

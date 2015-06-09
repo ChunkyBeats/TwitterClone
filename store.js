@@ -1,18 +1,18 @@
 var tweets = [
-  {
-    id: 1,
-    text: "I like food",
-    time: "12:35",
-    date: "09-08-2015",
-    hashtags: ["#food"]
-  },
-  {
-    id: 2,
-    text: "I like mexican food",
-    time: "12:39",
-    date: "05-08-2015",
-    hashtags: ["#mexican","#food"]
-  },
+  // {
+  //   id: 1,
+  //   text: "I like food",
+  //   time: "12:35",
+  //   date: "09-08-2015",
+  //   hashtags: ["#food"]
+  // },
+  // {
+  //   id: 2,
+  //   text: "I like mexican food",
+  //   time: "12:39",
+  //   date: "05-08-2015",
+  //   hashtags: ["#mexican","#food"]
+  // },
   // {
   //   id: 3,
   //   text: "I like thai food",
