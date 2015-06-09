@@ -11,6 +11,6 @@
 <hr>
 <ul>
   {{#each returnTweets as |tweet|}}
-    <li>{{#link-to 'tweet' tweet.id}}{{tweet.text}} --- {{tweet.time}}{{/link-to}}</li>
+    <li>{{#link-to 'tweet' tweet.id}}{{tweet.text}}{{/link-to}} --- {{tweet.time}}</li>
   {{/each}}
 </ul>
